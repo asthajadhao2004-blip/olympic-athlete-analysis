@@ -72,12 +72,12 @@ olympic-athlete-analysis/
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
+git clone (https://github.com/asthajadhao2004-blip/olympic-athlete-analysis.git)
 cd olympic-athlete-analysis
 ```
 
 ### 2. Install dependencies
-Python 3.8+ is recommended.
+pip install -r requirements.txt
 ```bash
 python -m venv venv
 # Windows:  venv\Scripts\activate
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 **Option A: Jupyter Notebook (recommended)**
 ```bash
-cd notebook
+cd notebooks
 jupyter notebook olympic_athlete_analysis.ipynb
 ```
 Then choose **Kernel > Restart & Run All**.
@@ -97,7 +97,7 @@ Then choose **Kernel > Restart & Run All**.
 **Option B: Python script**
 ```bash
 cd scripts
-python olympic_analysis.py
+python src/olympic_analysis.py
 ```
 Charts open one after another; close each window to continue.
 
